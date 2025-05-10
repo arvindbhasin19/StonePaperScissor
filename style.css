@@ -61,8 +61,18 @@
   #msg {
     background-color: #081b31;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1rem;
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      height: 100px;
+      width: 100px;
+    }
+    .choices {
+      gap: 1rem;
+    }
   }
